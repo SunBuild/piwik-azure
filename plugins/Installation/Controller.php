@@ -46,7 +46,7 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
 {
     public $steps = array(
         'welcome'           => 'Installation_Welcome',
-        'systemCheck'       => 'Installation_SystemCheck',
+        //'systemCheck'       => 'Installation_SystemCheck',
         'databaseSetup'     => 'Installation_DatabaseSetup',
         'tablesCreation'    => 'Installation_Tables',
         'setupSuperUser'    => 'Installation_SuperUser',
